@@ -62,9 +62,9 @@ main {
     box-sizing: border-box;
     width: 20%;
     margin: 0 1.5%;
-    padding: 35px 38px;
     border-radius: 20px;
 }
+
 
 .productos li:hover {
     border-color: rgb(189, 162, 12);
