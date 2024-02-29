@@ -1,6 +1,38 @@
-
 .titulo-principal {
     padding-left: 30px;
+    font-size: 42px;
+}
+
+.header-container {
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.navbar {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    padding: 0px 40px 0px 0px;
+    font-family: cursive;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0px 0px 0px 15px;
+    font-size: 24px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold; /*Altera el texto en negrito*/
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: rgb(189, 162, 12);
 }
 
 #banner {
@@ -12,12 +44,16 @@
     padding: 20px;
 }
 
-.titulo-centralizado {
-    text-align: center;
-}
-
 p {
     text-align: center;
+    font-size: 22px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+
 }
 
 em strong {
@@ -25,18 +61,24 @@ em strong {
 }
 
 #mision {
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .items {
     font-family: cursive;
 }
 
-ul {
+.ejemplos-diferenciales {
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 12%;
+}
+
+.ejemplos-diferenciales li {
+    border-bottom: solid 1px;
+    margin: 10% 0;
+    padding-bottom: 17%;
 }
 
 .diferenciales {
@@ -47,4 +89,31 @@ ul {
 
 .imagenDiferenciales {
     width: 50%;
+
+}
+
+.desplazar-al-inicio {
+    position: absolute;
+    right: 0;
+    margin: 0 25px;
+    width: 160px;
+    height: 60px;
+}
+
+.desplazamiento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    height: 60px;
+    border-radius: 30px 30px 0 0;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(55, 55, 203);
+    font-family: cursive;
+}
+
+.desplazamiento:hover {
+    transform: scale(1.02);
+    transition: 0.7s;
 }
