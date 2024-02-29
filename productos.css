@@ -70,6 +70,15 @@ main {
     border-color: rgb(189, 162, 12);
 }
 
+.productos li:hover {
+    transform: scale(1.01);
+}
+
+.productos li:active {
+    transform: scale(0.97);
+    border-color: #088c19;
+}
+
 .productos h2 {
     font-size: 30px;
     font-weight: bold;
