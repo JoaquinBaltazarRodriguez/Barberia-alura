@@ -44,3 +44,20 @@ nav a:hover {
 }
 
 /* End header section */
+
+/*Start footer section*/
+
+footer {
+    width: 100%;
+    text-align: center;
+    background: url(Barberia/imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: #FFFF;
+    font-family: cursive;
+    margin-top: 20px;
+}
+
+/*End footer section*/
