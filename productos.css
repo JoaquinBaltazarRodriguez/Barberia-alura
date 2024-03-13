@@ -28,6 +28,7 @@ nav li {
     display: inline;
     margin: 0px 0px 0px 15px;
     font-size: 24px;
+    font-family: cursive;
 }
 
 
@@ -54,6 +55,7 @@ main {
 .productos {
     text-align: center;
     padding: 65px;
+    font-family: cursive;
 }
 
 .productos li {
@@ -80,18 +82,18 @@ main {
 }
 
 .productos h2 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
     padding-top: 15px;
 }
 
 .producto-descripcion {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .producto-precio {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
     margin: 15px 0;
 }

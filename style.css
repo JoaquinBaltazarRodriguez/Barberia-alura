@@ -1,6 +1,7 @@
 .titulo-principal {
     padding-left: 30px;
-    font-size: 42px;
+    font-size: 38px;
+    font-family: cursive;
 }
 
 .header-container {
@@ -47,13 +48,14 @@
 p {
     text-align: center;
     font-size: 22px;
+    font-family: cursive;
 }
 
 .titulo-centralizado {
     text-align: center;
     font-size: 28px;
     font-weight: bold;
-
+    font-family: cursive;
 }
 
 em strong {
