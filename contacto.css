@@ -57,6 +57,27 @@ main {
     margin: 0 auto;
 }
 
+table {
+    margin: 40px 40px;
+    position: absolute;
+    left: 2%;
+    top: 45%;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 28px 35px;
+}
+
 form {
     margin: 40px 0;
     padding: 0 13em;
