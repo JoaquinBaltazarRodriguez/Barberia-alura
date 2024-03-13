@@ -21,31 +21,59 @@
         </div>
     </header>
     <main>
+        <table>
+            <tr>
+                <td>Día</td>
+                <td>Horario</td>
+            </tr>
+            <tr>
+                <td>Lunes</td>
+                <td>08h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Miércoles</td>
+                <td>08h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Viernes</td>
+                <td>08h ~ 20h</td>
+            </tr>
+        </table>
+
         <form>
             <label for="nombreapellido">Nombre y apellido</label>
-            <input type="text" id="nombreapellido" class="input-padron">
+            <input type="text" id="nombreapellido" class="input-padron" required>
 
             <label for="correoelectronico">Correo electronico</label>
-            <input type="email" id="correoelectronico" class="input-padron">
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
 
             <label for="telefono">Teléfono</label>
-            <input type="text" id="telefono" class="input-padron">
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX-XXXXXX">
 
             <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" maxlength="350" minlength="10" class="mensaje-usuario" class="input-padron"></textarea>
+            <textarea id="mensaje" maxlength="350" minlength="10" class="mensaje-usuario" class="input-padron" required ></textarea>
 
             <div>
                 <p class="titulo-contacto">¿Cómo le gustaría que lo contactemos?</p>
 
-                <label for="radio-mail"><input type="radio" id="radio-mail" name="contacto"  value="Email">Email</label>
+                <label class="contacto" for="radio-mail"><input class="opciones-contacto"  type="radio" id="radio-mail" name="contacto"  value="Email">Email</label>
     
-                <label for="radio-telefono"><input type="radio" id="radio-telefono" name="contacto"  value="Telefono">Telefono</label>
+                <label class="contacto" for="radio-telefono"><input class="opciones-contacto"  type="radio" id="radio-telefono" name="contacto"  value="Telefono">Telefono</label>
 
-                <label for="radio-whatsapp"> <input type="radio" id="radio-whatsapp" name="contacto"  value="WhatsApp">WhatsApp</label> 
+                <label class="contacto" for="radio-whatsapp"> <input class="opciones-contacto" type="radio" id="radio-whatsapp" name="contacto"  value="WhatsApp" checked>WhatsApp</label> 
 
-                <label class="checkbox"><input type="checkbox">¿Le gustaría recibir novedades de la Barberia Alura?</label>
+                <div class="container-horario">
+                    <p class="titulo-horario">¿En qué horario prefiere ser atendido?</p>
+                    <select class="opciones-horario">
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </div>
 
-                <input type="submit" id="enviar" value="Enviar formulario">
+                <label class="checkbox"><input type="checkbox" class="text-checkbox" checked>¿Le gustaría recibir novedades de la Barberia Alura?</label>
+
+                <input type="submit" id="enviar" value="Enviar formulario" class="enviar">
             </div>
 
         </form>

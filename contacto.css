@@ -49,7 +49,7 @@ nav a:hover {
 /* Start main section */
 
 .titulo-contacto {
-    margin: 30px 0;
+    margin: 50px 0;
 }
 
 main {
@@ -85,8 +85,52 @@ form label, form p {
     font-size: 14px;
 }
 
+.contacto {
+    font-size: 17px;
+    display: inline;
+    margin: 0 15px;
+}
+
+.opciones-contacto {
+    margin: 0 13px;
+}
+
+.container-horario {
+    margin: 50px 0;
+}
+
+.titulo-horario {
+    margin: 30px 0;
+}
+
+.opciones-horario {
+    font-size: 17px;
+}
+
 .checkbox {
-    margin: 25px 0 ;
+    margin: 45px 0;
+}
+
+.text-checkbox {
+    margin: 0 15px
+}
+
+.enviar {
+    width: 20%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    background-color: rgb(84, 164, 196);
 }
 
 /* End main section */
@@ -105,5 +149,6 @@ footer {
     font-family: cursive;
     margin-top: 20px;
 }
+
 
 /*End footer section*/
