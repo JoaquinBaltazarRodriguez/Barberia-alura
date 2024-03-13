@@ -23,15 +23,31 @@
     <main>
         <form>
             <label for="nombreapellido">Nombre y apellido</label>
-            <input type="text" id="nombreapellido">
+            <input type="text" id="nombreapellido" class="input-padron">
 
             <label for="correoelectronico">Correo electronico</label>
-            <input type="email" id="correoelectronico">
+            <input type="email" id="correoelectronico" class="input-padron">
 
             <label for="telefono">Teléfono</label>
-            <input type="text" id="telefono">
+            <input type="text" id="telefono" class="input-padron">
 
-            <input type="submit" id="enviar" value="Enviar formulario">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" maxlength="350" minlength="10" class="mensaje-usuario" class="input-padron"></textarea>
+
+            <div>
+                <p class="titulo-contacto">¿Cómo le gustaría que lo contactemos?</p>
+
+                <label for="radio-mail"><input type="radio" id="radio-mail" name="contacto"  value="Email">Email</label>
+    
+                <label for="radio-telefono"><input type="radio" id="radio-telefono" name="contacto"  value="Telefono">Telefono</label>
+
+                <label for="radio-whatsapp"> <input type="radio" id="radio-whatsapp" name="contacto"  value="WhatsApp">WhatsApp</label> 
+
+                <label class="checkbox"><input type="checkbox">¿Le gustaría recibir novedades de la Barberia Alura?</label>
+
+                <input type="submit" id="enviar" value="Enviar formulario">
+            </div>
+
         </form>
     </main>
     <footer>
