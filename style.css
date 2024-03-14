@@ -1,7 +1,13 @@
-.titulo-principal {
-    padding-left: 30px;
-    font-size: 38px;
-    font-family: cursive;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #BBBB;
+    padding: 15px  0;
 }
 
 .header-container {
@@ -10,33 +16,33 @@
     margin: 0 auto;
 }
 
-.navbar {
+nav {
     position: absolute;
-    top: 25px;
+    top: 110px;
     right: 0;
-    padding: 0px 40px 0px 0px;
-    font-family: cursive;
 }
 
-.navbar li {
+nav li {
     display: inline;
     margin: 0px 0px 0px 15px;
     font-size: 24px;
+    font-family: cursive;
 }
 
-.navbar a {
+
+nav a {
     text-decoration: none;
     color: #000000;
     text-transform: uppercase;
     font-weight: bold; /*Altera el texto en negrito*/
 }
 
-.navbar a:hover {
+nav a:hover {
     text-decoration: underline;
-    color: rgb(189, 162, 12);
+    color: rgb(157, 135, 8);
 }
 
-#banner {
+.banner {
     width: 100%;
 }
 
@@ -45,25 +51,35 @@
     padding: 20px;
 }
 
-p {
+.titulo-principal{
+    margin: 1.1em 0;
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.principal p {
+    margin: 1.2em 0;
     text-align: center;
     font-size: 22px;
     font-family: cursive;
 }
 
-.titulo-centralizado {
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    font-family: cursive;
-}
 
 em strong {
     color: rgb(181, 14, 14);
 }
 
-#mision {
+.mision {
     font-size: 28px;
+}
+
+.titulo-principal-diferenciales{
+    margin: 1.1em 0 1.1em 3em;
+    font-size: 2.3em;
+    font-weight: bold;
+    font-family: cursive;
 }
 
 .items {
@@ -74,7 +90,7 @@ em strong {
     display: inline-block;
     vertical-align: top;
     width: 20%;
-    margin-right: 12%;
+    margin: 0 12em 0 5em;
 }
 
 .ejemplos-diferenciales li {
@@ -91,31 +107,23 @@ em strong {
 
 .imagenDiferenciales {
     width: 50%;
-
+    height: 550px;
+    margin: 0 0 0 7em;
 }
 
-.desplazar-al-inicio {
-    position: absolute;
-    right: 0;
-    margin: 0 25px;
-    width: 160px;
-    height: 60px;
+/*Start footer section*/
+
+footer {
+    width: 100%;
+    text-align: center;
+    background: url(Barberia/imagenes/bg.jpg);
+    padding: 40px;
 }
 
-.desplazamiento {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 1px;
-    height: 60px;
-    border-radius: 30px 30px 0 0;
-    text-decoration: none;
-    color: #ffffff;
-    background-color: rgb(55, 55, 203);
+.copyright {
+    color: #FFFF;
     font-family: cursive;
+    margin-top: 20px;
 }
 
-.desplazamiento:hover {
-    transform: scale(1.02);
-    transition: 0.7s;
-}
+/*End footer section*/
