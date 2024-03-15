@@ -72,7 +72,7 @@ nav a:hover {
 }
 
 .principal p {
-    margin: 1.2em 0;
+    margin: 1.2em 2em;
     text-align: center;
     font-size: 22px;
 }
@@ -120,6 +120,11 @@ em strong {
     margin: 0 12em 0 5em;
 }
 
+.lista-diferenciales li:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 .items {
     border-bottom: 0.5px solid;
     padding: 1.8em 0;
@@ -140,6 +145,13 @@ em strong {
     width: 50%;
     height: 500px;
     margin: 0 0 0 7em;
+    opacity: 70%;
+}
+
+.imagenDiferenciales:hover {
+    opacity: 100%;
+    transition: 0.8s;
+    box-shadow: 12px 12px 15px #000000;
 }
 
 .video {
@@ -164,3 +176,60 @@ footer {
 }
 
 /*End footer section*/
+
+@media screen and (max-width:480px) {
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav li {
+        display: inline;
+        margin: 1em 0.5em;
+        font-size: 20px;
+    }
+
+    .header-container, .principal, .mapa {
+        width: auto;
+    }
+    
+    .titulo-principal-diferenciales {
+        margin: 1em auto;
+        font-size: 2.3em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .lista-diferenciales {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .items {
+        padding: 1.8em 0;
+        list-style: none;
+        border: none;
+    }
+
+    .imagenDiferenciales {
+        width: 100%;
+        height: 500px;
+        margin: auto;
+        opacity: 100%;
+    }
+
+    .video {
+        width: auto;
+        margin: 4em 0;
+        display: block;
+        text-align: center;
+    }
+    
+}
