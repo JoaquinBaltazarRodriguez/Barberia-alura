@@ -155,7 +155,6 @@ em strong {
 }
 
 .video {
-    width: 560px;
     margin: 4em auto;
 }
 
@@ -177,7 +176,7 @@ footer {
 
 /*End footer section*/
 
-@media screen and (max-width:480px) {
+@media(max-width:500px) {
 
     h1 {
         text-align: center;
@@ -189,7 +188,7 @@ footer {
 
     nav li {
         display: inline;
-        margin: 1em 0.5em;
+        margin: 1em 1em;
         font-size: 20px;
     }
 
@@ -228,8 +227,11 @@ footer {
     .video {
         width: auto;
         margin: 4em 0;
-        display: block;
         text-align: center;
     }
     
+    .video iframe {
+    width: 400px;
+    height: 400px;
+    }
 }
