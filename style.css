@@ -53,8 +53,8 @@ nav a:hover {
 /* Start main section */
 
 .principal {
-    background-color: #CCCCCC;
-    padding: 20px;
+    background-color: #FEFEFE;
+    padding: 3em 0;
 }
 
 .titulo-principal{
@@ -91,6 +91,7 @@ em strong {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa p {
@@ -112,22 +113,26 @@ em strong {
 
 }
 
-.ejemplos-diferenciales {
+.lista-diferenciales {
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin: 0 12em 0 5em;
 }
 
-.ejemplos-diferenciales li {
-    border-bottom: solid 1px;
-    margin: 10% 0;
-    padding-bottom: 17%;
+.items {
+    border-bottom: 0.5px solid;
+    padding: 1.8em 0;
+    list-style: none;
+}
+
+.items::before {
+    content: "★";
 }
 
 .diferenciales {
-    background-color: #ffffff;
-    padding: 30px;
+    background-color: #888888;
+    padding: 3em 0;
 }
 
 
