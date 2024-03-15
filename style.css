@@ -155,7 +155,9 @@ em strong {
 }
 
 .video {
-    margin: 4em auto;
+    width: 100%;
+    margin: 6em auto;
+    text-align: center;
 }
 
 /* End main section */
@@ -177,6 +179,10 @@ footer {
 /*End footer section*/
 
 @media(max-width:500px) {
+        
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
     h1 {
         text-align: center;
@@ -184,12 +190,14 @@ footer {
 
     nav {
         position: static;
+
     }
 
     nav li {
         display: inline;
         margin: 1em 1em;
         font-size: 20px;
+
     }
 
     .header-container, .principal, .mapa {
@@ -233,5 +241,5 @@ footer {
     .video iframe {
     width: 400px;
     height: 400px;
-    }
+}
 }
